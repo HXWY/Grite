@@ -33,7 +33,7 @@ namespace Grite.Entities {
         /// <param name="height">The output image height.</param>
         private void CalculateImageSize(out int width, out int height) {
             width = Math.Min(MaxFramesPerRow, _frameCount) * _frameWidth;
-            var rows = (int) Math.Round((float) _frameCount / MaxFramesPerRow, 0, MidpointRounding.AwayFromZero);
+            var rows = (int) Math.Ceiling((float) _frameCount / MaxFramesPerRow);
             height = rows * _frameHeight;
         }
         
