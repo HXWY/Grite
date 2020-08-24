@@ -1,0 +1,8 @@
+# IDE & OS
+.idea
+.vs
+*.user
+
+# CSharp
+[Oo]bj/
+[Bb]in/
