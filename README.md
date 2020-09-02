@@ -1,5 +1,5 @@
 # Grite
-🖌️ A commandline tool to convert GIFs to spritesheets
+🖌️ A command line tool to convert GIFs to sprite sheets
 
 ### What is Grite?
 
